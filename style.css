@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap");
+* {
+  font-family: "space mono", monospace;
+}
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-size: 12px;
+}
+p {
+  font-size: 10px;
+  margin: 0;
+}
+input {
+  width: 95%;
+  text-align: right;
+  font-size: 18px;
+  border-style: none;
+  padding: 3px 8px;
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(184, 14%, 56%);
+  margin-top: 0;
+  margin-bottom: 25px;
+  border-radius: 3px;
+}
+table {
+  width: 100%;
+}
+label {
+  color: hsl(186, 14%, 43%);
+}
+td > label {
+  color: white;
+}
+h1 {
+  text-align: right;
+  font-size: 36px;
+  font-weight: 700;
+  color: hsl(172, 67%, 45%);
+  line-height: 1.2rem;
+}
+.text-input:active,
+.text-input:hover {
+  border: 3px solid hsl(172, 67%, 45%);
+}
+.tip {
+  width: 28%;
+  margin: 5px;
+
+  text-align: center;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+}
+.tip-input {
+  background-color: white;
+  color: hsl(172, 67%, 45%);
+  width: 22%;
+  margin: 5px;
+}
+.tip:hover {
+  border: 2px solid hsl(172, 67%, 45%);
+}
+.click {
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(172, 67%, 45%);
+}
+.tip:hover {
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(172, 67%, 45%);
+}
+.custom {
+  margin-bottom: 20px;
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.logo {
+  text-align: center;
+  margin: 100px 0 75px;
+}
+.form {
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.reset {
+  width: 100%;
+  margin: 45px auto 0;
+  text-align: center;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px;
+  background-color: hsl(184, 14%, 56%);
+  color: hsl(183, 100%, 15%);
+}
+.reset:hover {
+  background-color: hsl(189, 41%, 97%);
+}
+.item-1 {
+  width: 45%;
+  display: inline-block;
+}
+.item-2 {
+  width: 45%;
+  float: right;
+  background-color: hsl(183, 100%, 15%);
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+}
+.item-2 > label {
+  line-height: 0;
+}
+p {
+  color: hsl(184, 14%, 56%);
+  display: inline;
+}
+
+.hide {
+  display: none;
+}
+.zero {
+  color: red;
+  float: right;
+}
+.error {
+  border: 2px solid red;
+}
